@@ -6,6 +6,7 @@ ui <- dashboardPage(
   ),
   dashboardBody(
     tags$head(
+      tags$link(rel = "stylesheet", type = "text/css", href = "app.css"),
       tags$style(HTML("
         .nav-tabs-custom > .nav-tabs > li > a {
            background-color: #f4b943;
